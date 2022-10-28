@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana;
+}
+.center {
+  text-align: center;
+  margin-top: 50px;
+}
+div {
+  text-align: center;
+}
+.info {
+  margin-top: 200px;
+}
+.inputs {
+  width: 70%;
+  margin: 80px auto 40px auto;
+}
+.key {
+  margin-top: 20px;
+}
+.input {
+  background: #d1d8ec;
+  box-shadow: 5px 5px 9px #54565e;
+  padding: 17px;
+  font-size: 18px;
+  border-radius: 15px;
+  outline: none;
+}
+.input:focus {
+  outline: none;
+}
+.b1 {
+  font-size: 17px !important;
+  font-weight: bold;
+  padding: 8px 20px !important;
+}
+.myButton {
+  box-shadow: inset 0px 1px 4px 0px #f29c93;
+  background: linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%);
+  background-color: #fe1a00;
+  border-radius: 6px;
+  border: 1px solid #d83526;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Verdana;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 18px 44px;
+  text-decoration: none;
+  text-shadow: 0px 3px 0px #b23e35;
+}
+.myButton:hover {
+  background: linear-gradient(to bottom, #ce0100 5%, #fe1a00 100%);
+  background-color: #ce0100;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+.blue {
+  box-shadow: inset 0px 1px 0px 0px #97c4fe;
+  background: linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+  background-color: #3d94f6;
+  border-radius: 6px;
+  border: 1px solid #337fed;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  text-shadow: 0px 1px 0px #1570cd;
+}
+.blue:hover {
+  background: linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+  background-color: #1e62d0;
+}
+h3 {
+  min-height: 20px;
+}
+h2 {
+  margin: 5px 0 5px 0;
+  font-size: 20px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Decrypt - Playfair Cipher</title>
+        <style>
+            .en-text {
+                color: green;
+            }
+
+            .en-key {
+                color: red;
+            }
+
+            .plain-text {
+                color: blue;
+            }
+        </style>
+    </head>
+
+    <body style="background-color:#EEF0F4 ;">
+        <form>
+            <div class="inputs">
+                <div class="key">
+                    <input type="text" name="key" id="key" class="input in1" placeholder="Enter Your Key"
+                        required>
+                </div>
+                <div class="key">
+                    <textarea name="plantext" id="plain-text" placeholder="Write Your Encrypt Text Here To Decrypt."
+                        class="input in2 " cols="40" rows="5" minlength="1" maxlength="500" spellcheck
+                        required></textarea>
+                </div>
+                <div class="key">
+                    <input type="submit" value="Decrypt" class="input in1 myButton b1 blue">
+                </div>
+            </div>
+
+        </form>
+        <div class="output">
+            <H2>Your Decrypt Key</H2>
+            <h3 class="en-key" id="key-output">hello </h3>
+            <h2>Your Text You Enter For Decryption</h2>
+            <h3 class="plain-text" id="plain-text-output">Encrypted Text</h3>
+            <h2>Orignal Text - Playfair Cipher</h2>
+            <h3 class="en-text" id="encrypted-text-output">Orignal Text </h3>
+        </div>
+    </body>
+
+</html>
