@@ -82,3 +82,19 @@ h2 {
   margin: 5px 0 5px 0;
   font-size: 20px;
 }
+.back{
+  padding: 20px;
+  box-shadow: 9.91px 9.91px 15px #D9DADE, -9.91px -9.91px 15px #FFFFFF;
+  border-radius: 20px;
+}
+.w-60{
+  width:90%;
+  margin: 0 auto;
+
+}
+@media only screen and (min-width: 800px){
+  .w-60{
+  width:50%;
+
+}
+}
