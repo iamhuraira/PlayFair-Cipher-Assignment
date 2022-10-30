@@ -8,42 +8,47 @@
         <link rel="stylesheet" href="style.css">
         <title>Encrypt - Playfair Cipher</title>
         <style>
-            .en-text{
+            .en-text {
                 color: green;
             }
-            .en-key{
-                color:red;
+
+            .en-key {
+                color: red;
             }
-            .plain-text{
+
+            .plain-text {
                 color: blue;
             }
         </style>
     </head>
 
     <body style="background-color:#EEF0F4 ;">
-        <form>
+
         <div class="inputs">
             <div class="key">
-                <input type="text" name="key" id="key" class="input in1" placeholder="Enter Your Encryption Key" required>
+                <input type="text" name="key" id="key" class="input in1" placeholder="Enter Your Encryption Key"
+                    required>
             </div>
             <div class="key">
-                <textarea name="plantext" id="plain-text" placeholder="Write Your Plain Text Here To Encrypt." class="input in2 "
-                    cols="40" rows="5" minlength="1" maxlength="500" spellcheck required></textarea>
+                <textarea name="plantext" id="plain-text" placeholder="Write Your Plain Text Here To Encrypt."
+                    class="input in2 " cols="40" rows="5" minlength="1" maxlength="500" spellcheck></textarea>
             </div>
-             <div class="key">
-                 <input type="submit" value="Encrypt" class="input in1 myButton b1">
-             </div>
+            <div class="key">
+                <button onclick="cipher()" class="input in1 myButton b1">Encrypt</button>
+            </div>
         </div>
-        
-        </form>
+
+
         <div class="output">
             <H2>Your Encrypt Key</H2>
-            <h3 class="en-key" id="key-output">hello </h3>
+            <h3 class="en-key" id="key-output"></h3>
             <h2>Your Text You Enter For Encryption</h2>
-            <h3 class="plain-text" id="plain-text-output"> Plain Text</h3>
+            <h3 class="plain-text" id="plain-text-output"></h3>
             <h2>Encrypted Text - Playfair Cipher</h2>
-            <h3 class="en-text" id="encrypted-text-output">Encrypted Text</h3>
+            <h3 class="en-text" id="encrypted-text-output"></h3>
         </div>
+
+        <script src="script.js"></script>
     </body>
 
 </html>

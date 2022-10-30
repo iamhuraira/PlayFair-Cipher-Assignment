@@ -23,7 +23,7 @@
     </head>
 
     <body style="background-color:#EEF0F4 ;">
-        <form>
+   
             <div class="inputs">
                 <div class="key">
                     <input type="text" name="key" id="key" class="input in1" placeholder="Enter Your Key"
@@ -35,19 +35,21 @@
                         required></textarea>
                 </div>
                 <div class="key">
-                    <input type="submit" value="Decrypt" class="input in1 myButton b1 blue">
+                    <button onclick="cipher()" class="input in1 myButton b1 blue">Decrypt</button>
+                    <!-- <input type="submit" value="Decrypt" class="input in1 myButton b1 blue"> -->
                 </div>
             </div>
 
-        </form>
+        
         <div class="output">
             <H2>Your Decrypt Key</H2>
-            <h3 class="en-key" id="key-output">hello </h3>
+            <h3 class="en-key" id="key-output"> </h3>
             <h2>Your Text You Enter For Decryption</h2>
-            <h3 class="plain-text" id="plain-text-output">Encrypted Text</h3>
+            <h3 class="plain-text" id="plain-text-output"></h3>
             <h2>Orignal Text - Playfair Cipher</h2>
-            <h3 class="en-text" id="encrypted-text-output">Orignal Text </h3>
+            <h3 class="en-text" id="encrypted-text-output"></h3>
         </div>
+        <script src="script.js"></script>
     </body>
 
 </html>
